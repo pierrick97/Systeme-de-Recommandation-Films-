@@ -210,7 +210,7 @@ def general_function(numero_base_test):
     print(" Pour RR : La meilleure matrice de prédiction a une MAE = ", min_MAEr,
           " et est obtenue pour l'approximation de rang k = ", index_minR)
 
-    return liste_MAEc, liste_MAEr
+   return min_MAEc,index_minC, min_MAEr, index_minR
 
 
 for i in range(1, 6):
